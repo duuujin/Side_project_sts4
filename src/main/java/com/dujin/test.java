@@ -11,7 +11,15 @@ public class test {
 //        return "Hello World!";
 //    }
     
-    @GetMapping("/hello")
+//    @GetMapping("/hello")
+//    public String hello() {
+//        return "Hello World!";
+//    }
+//	@GetMapping("/hello")
+//    public String hello() {
+//        return "Hello World!";
+//    }
+	@GetMapping("/hello")
     public String hello() {
         return "Hello World!";
     }
